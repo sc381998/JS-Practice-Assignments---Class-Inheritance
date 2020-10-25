@@ -2,7 +2,7 @@
 
 class Shape {
   constructor(props) {
-    color: props;
+    this.state = { color: "red" };
   }
   calculateArea() {
     return "overRide the shape module Calculate Area";
