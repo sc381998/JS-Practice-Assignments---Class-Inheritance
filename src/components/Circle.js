@@ -1,7 +1,6 @@
 // import using require
-const React = require("react");
-const ReactDOM = require("react-dom");
-const Shape = require("./shape");
+
+const Shape = require("./Shape");
 // declare class
 class Circle extends Shape {
   constructor(props) {
