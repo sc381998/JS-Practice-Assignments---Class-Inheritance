@@ -1,4 +1,4 @@
-import Shape from "./Shape";
+import Shape from "./shape";
 
 //export default class Circle extends Shape
 module.exports = class Circle extends Shape {
