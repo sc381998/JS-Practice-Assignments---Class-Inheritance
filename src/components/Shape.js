@@ -1,20 +1,14 @@
 // declare class
 
-class Shape {
-  constructor(props) {
+// export class using module.exports//export default class Shape
+module.exports = class Shape {
+  constructor() {
     this.color = "red";
   }
-  calculateArea() {
-    return "overRide the shape module Calculate Area";
-  }
   drawShape() {
-    return "shape draw";
+    console.log("Drawing a shape");
   }
-}
-
-// export class using module.exports
-module.exports = {
-  class: Shape
+  calculateArea() {
+    console.log("don't know area of uknown shape");
+  }
 };
-
-// export class using module.exports
